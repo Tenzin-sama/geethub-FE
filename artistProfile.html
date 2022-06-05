@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+    </style>
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="mainCSS.css">
+    <link rel="stylesheet" href="artistStyle.css">
+    <title>Artist Profile</title>
+  </head>
+
+  <body>
+    <div>
+      <div class='container-fluid'>
+        <!-- left sidebar -->
+        <div class='sidebar text-center'>Geethub</div>
+
+        <div class='main-container'>
+          <button class="btn btn-link back_btn_container clr_primaryFG">
+            <span class="material-symbols-rounded back_icon  p-0">
+              arrow_back_ios
+            </span><span>GO BACK</span>
+          </button>
+          <div class="artist_profile_container mt-0">
+            <img class="artist_profile_picture my-auto mr-3" src="images/yugal_gurung.jpg">
+            <div class="artist_profile_details">
+              <div class="artist_profile_name mb-3">Yugal Gurung</div>
+              <div class="artist_profile_desc mb-2">Hello wassup guys this is my geethub profile</div>
+              <div class="artist_profile_all_stats mb-3">
+                <div class="artist_profile_stat mr-3">13 UPLOADS</div>
+                <div class="artist_profile_stat">15 FOLLOWERS</div>
+              </div>
+              <div class="artist_profile_buttons">
+                <button type="button" class="btn btn-primary btn-main btn-play p-0">
+                  <span class="material-symbols-rounded play_symbol">
+                    play_circle
+                  </span>
+                </button>
+                <div class="artist_profile_actions">
+                  <button type="button" class="btn btn-main-outline mr-2">
+                    <span class="material-symbols-rounded mr-1">
+                      person_add
+                    </span><span>Follow</span></button>
+                  <button type="button" class="btn btn-primary btn-main">
+                    <span class="material-symbols-rounded">
+                      redeem
+                    </span>
+                    <span>Tip</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- music list below -->
+          <div class='all_playlists mt-0'>
+            <div class='upload-header'>
+              <div class='sub-header'>ALL</div>
+              <button class="btn btn-link create_new_playlist" data-toggle="modal"
+                data-target="#create_new_playlist_modal">+ CREATE NEW PLAYLIST</button>
+            </div>
+            <div class="overflow-auto">
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Genshin Lyre</div>
+                    <div class="playlist_descr">playlist for genshin lyre music lore</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <!-- extras -->
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+
+          </div>
+          <!-- end of music list -->
+        </div>
+        
+        <!-- now playing sidebar -->
+        <div class='music-status text-center clr_primaryBG'>Now Playing</div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="tooltipToggle.js"></script>
+  </body>
+
+</html>

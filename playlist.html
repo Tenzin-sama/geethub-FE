@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainCSS.css">
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div>
+      <div class='container-fluid'>
+        <div class='sidebar text-center'>Geethub</div>
+        <div class='main-container'>
+          <div class='page-header'>Playlists</div>
+          <div class='all_playlists'>
+            <div class='upload-header'>
+              <div class='sub-header'>ALL</div>
+              <button class="btn btn-link create_new_playlist" data-toggle="modal"
+                data-target="#create_new_playlist_modal">+ CREATE NEW PLAYLIST</button>
+            </div>
+            <div class="overflow-auto">
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Genshin Lyre</div>
+                    <div class="playlist_descr">playlist for genshin lyre music lore</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <!-- extras -->
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <div class="indiv_playlist">
+                <div class="playlist_details">
+                  <img src="images/musicCover.png" class="playlist_image">
+                  <div class="playlist_title">
+                    <div class="playlist_name">Orchestra</div>
+                    <div class="playlist_descr">playlist for genshin orchestral music</div>
+                  </div>
+                </div>
+                <div class="playlist_allstats">
+                  <div class="playlist_stat">5 songs</div>
+                  <div class="playlist_stat">16:47</div>
+                  <div class="playlist_stat">Last modified on 5/15/22</div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+
+          </div>
+        </div>
+        <div class='music-status text-center'>Now Playing</div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="create_new_playlist_modal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-2">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Create new playlist</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="playlist_name" class="">Playlist name</label>
+                <input type="text" class="form-control" id="playlist_name" aria-describedby="playlistNameHelp"
+                  placeholder="name for the playlist">
+              </div>
+              <div class="form-group">
+                <label for="playlist_desc" class="">Playlist description</label>
+                <input type="text" class="form-control" id="playlist_desc" aria-describedby="playlistDescHelp"
+                  placeholder="short description for the playlist">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-main">Create</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
